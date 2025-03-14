@@ -1,0 +1,25 @@
+# Requirements for medical-report-analysis
+
+# Deep Learning et NLP
+torch>=2.0.0
+transformers>=4.30.0
+sentencepiece>=0.1.99
+accelerate>=0.20.0
+
+# Pipeline NER
+spacy>=3.5.0
+en-core-med-sm @ https://huggingface.co/d4data/en_core_med_sm/resolve/main/en_core_med_sm-any-py3-none-any.whl
+
+# Data Science
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+
+# Visualisation et interface
+streamlit>=1.22.0
+plotly>=5.14.0
+matplotlib>=3.7.0
+
+# Utilitaires
+tqdm>=4.65.0
+pyyaml>=6.0
